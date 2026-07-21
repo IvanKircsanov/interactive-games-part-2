@@ -1,10 +1,22 @@
 import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
+import glob from "glob";
+import injectHTML from "vite-plugin-html-inject";
+import FullReload from "vite-plugin-full-reload";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
-  base: "/book-landing-page/",
+  define: {
+    global: {},
+  },
+  root: "src",
+  build: {
+    rollupOptions: {
+      input: glob.sync("./src/*.html"),
+    },
+    outDir: "../dist",
+  },
+  plugins: [injectHTML(), FullReload(["./src/**/**.html"])],
+  base: "/interactive-games-part-2/",
 });
 
 
