@@ -1,2 +1,2 @@
-import "./js/modal-reigister";
-import "./css/style.css"
+// import "./js/modal-reigister";
+// import "./css/style.css"
