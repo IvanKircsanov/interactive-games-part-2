@@ -1,9 +1,16 @@
+header {
+    max-width: 1440px;
+    max-height: 80px;
+    background-color: #fff;
+}
+
 .header-structure {
     display: flex;
     justify-content: space-between;
     padding-top: 21px;
     padding-bottom: 21px;
     align-items: center;
+    /* border-bottom: 3px solid white; */
 }
 
 .header-first-list {
@@ -27,8 +34,6 @@
     min-width: 160px;
     padding-top: 8px; 
 
-    background: #fff;
-    border: 1px solid #e0e0e0;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);

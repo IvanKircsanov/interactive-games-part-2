@@ -1,0 +1,82 @@
+
+
+#rock-paper-scissors .container {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+#rock-paper-scissors .section-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #1c1c1c;
+    margin: 36px;
+}
+
+#rock-paper-scissors .section-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+#rock-paper-scissors .section-list {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#rock-paper-scissors .section-list-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 20px;
+    background-color: #141414;
+    cursor: pointer;
+}
+
+#rock-paper-scissors .section-list-button img {
+    width: 36px;
+    height: 36px;
+}
+
+#rock-paper-scissors .results-wrap {
+    text-align: left;
+}
+
+#rock-paper-scissors .results-title {
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 0 4px;
+}
+
+#rock-paper-scissors .results-text {
+    font-family: inherit;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 600;
+    margin: 0 0 24px;
+}
+
+#rock-paper-scissors .submit-button {
+    display: block;
+    margin: 0 auto;
+    background-color: #141414;
+    color: #fff;
+    border: none;
+    border-radius: 999px;
+    padding: 12px 28px;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}

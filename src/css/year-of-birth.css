@@ -1,0 +1,73 @@
+
+
+.title {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    color: #000;
+    padding: 24px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    width: 536px;
+    margin: 0 auto;
+}
+
+.year-of-birth-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.year-of-birth-label {
+    display: flex;
+    align-items: center;
+    background: #d7d7d7;
+    border-radius: 100px;
+    padding: 4px;
+}
+
+.year-of-birth-input {
+    font-family: var(--font-family);
+    border: none;
+    background: transparent;
+    outline: none;
+    font-family: inherit;
+    font-size: 15px;
+    color: #000;
+    padding: 10px 16px;
+    width: 200px;
+}
+
+.year-of-birth-input::placeholder {
+    background: #d7d7d7;
+}
+
+.year-of-birth-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background-color: #141414;
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.year-of-birth-btn img {
+    width: 16px;
+    height: 16px;
+}
+
+.year-of-birth-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0;
+}
