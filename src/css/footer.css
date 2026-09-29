@@ -9,3 +9,31 @@
     margin-top: 61px;
     margin-bottom: 61px;
 }
+.footer-item-text{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 170%;
+    color: #000;
+}
+.footer-button {
+    border-radius: 20px;
+    padding: 10px;
+    width: 107px;
+    height: 35px;
+    background: #000;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;
+}
+.footer-input-label {
+    border-radius: 20px;
+    padding: 10px 80px 10px 10px;
+    width: 204px;
+    height: 35px;
+}
+.footer-form {
+    display: flex;
+    gap: 36px;
+}

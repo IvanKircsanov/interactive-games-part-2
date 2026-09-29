@@ -40,5 +40,6 @@ section {
     background-color: #fff;
     max-width: 1090px;
     margin: 0 auto;
-    
+    padding-top: 18px;
+    padding-bottom: 18px;
 }
