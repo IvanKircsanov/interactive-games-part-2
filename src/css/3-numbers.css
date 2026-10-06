@@ -1,0 +1,12 @@
+#three-numbers .section-input{
+    border-radius: 20px;
+    padding: 10px 20px;
+    width: 100px;
+    height: 20px;
+}
+#three-numbers .biggest-number {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    color: #000;
+}

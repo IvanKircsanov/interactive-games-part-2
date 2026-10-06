@@ -15,7 +15,7 @@
 }
 
 #rock-paper-scissors .section-box {
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     gap: 60px;
@@ -79,4 +79,25 @@
     font-size: 15px;
     font-weight: 500;
     cursor: pointer;
+}
+
+.results-title {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 170%;
+    color: #000;
+}
+.results-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 170%;
+    color: #000;
+}
+.section-box-upper {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    padding-bottom: 20px;
 }

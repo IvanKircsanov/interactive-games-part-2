@@ -2,6 +2,8 @@
     background-color: white;
     max-width: 1440px;
     max-height: 220px;
+    padding-top: 21px;
+
 }
 .footer-box {
     display: flex;

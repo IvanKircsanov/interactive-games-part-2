@@ -13,10 +13,12 @@ refs.footballFieldEL.classList.add("football-field")
 refs.containerEL.append(refs.footballFieldEL)
 
 refs.ballEL.classList.add("ball")
-refs.containerEL.append(refs.ballEL)
+refs.footballFieldEL.append(refs.ballEL)
 
 refs.footballFieldEL.addEventListener("click", onFootballFieldClick )
 function onFootballFieldClick(event) {
+    console.log('click');
+    
     const fieldRect = refs.footballFieldEL.getBoundingClientRect()
     const ballReact = refs.ballEL.getBoundingClientRect()
     console.log(event.clientX);
@@ -37,7 +39,8 @@ function onFootballFieldClick(event) {
 
     x = Math.max(0, Math.min(x, maxX))
     y = Math.max(0, Math.min(y, maxY))
-
+     console.log(x, y);
+     
     refs.ballEL.style.left = x + "px"
     refs.ballEL.style.top = y + "px"
 }
